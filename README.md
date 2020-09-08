@@ -26,4 +26,4 @@ SSPanel UIM 是一款专为 Shadowsocks / ShadowsocksR / V2Ray 设计的多用�
 
 ## 支付接口申请：
 Telegram 联系: https://t.me/dadacccc
-
+地址：http://www.futurecart.club

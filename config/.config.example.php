@@ -279,8 +279,13 @@ $_ENV['enable_checkin_captcha'] = false;        //启用签到验证码
 
 
 //支付系统设置----------------------------------------------------------------------------------------
-#取值 none | codepay | f2fpay | chenAlipay | paymentwall | spay |tomatopay | payjs | yftpay
+#取值 none | codepay | f2fpay | chenAlipay | paymentwall | spay |tomatopay | payjs | yftpay | fcpay
 $_ENV['payment_system']       = 'none';
+
+#fcpay支付设置
+$_ENV['fcpay_id']             = '';
+$_ENV['fcpay_key']            = '';
+$_ENV['fcpay_ex_rate']        = 7.0;
 
 #yft支付设置
 $_ENV['yft_secret']           = '';

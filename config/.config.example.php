@@ -177,8 +177,13 @@ $System_Config['enable_checkin_captcha'] = 'false';	//启用签到验证码
 
 
 //支付系统设置----------------------------------------------------------------------------------------
-#取值 none | codepay | trimepay | f2fpay | chenAlipay | paymentwall | spay |tomatopay | payjs
+#取值 none | codepay | trimepay | f2fpay | chenAlipay | paymentwall | spay |tomatopay | payjs | fcpay
 $System_Config['payment_system']='none';
+
+#fcpay支付设置
+$System_Config['fcpay_id']             = '';
+$System_Config['fcpay_key']            = '';
+$System_Config['fcpay_ex_rate']        = 7.0;
 
 #codepay码支付
 #wiki地址:https://goo.gl/dRwRDi  http://t.cn/RnsWjtB

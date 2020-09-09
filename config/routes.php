@@ -118,7 +118,7 @@ $app->group('/user', function () {
     $this->get('/backtoadmin', App\Controllers\UserController::class . ':backtoadmin');
     $this->get('/code', App\Controllers\UserController::class . ':code');
     $this->get('/alipay', App\Controllers\UserController::class . ':alipay');
-    $this->post('/code/fcpay', App\Services\Payment::class . ':purchase');
+    $this->get('/code/fcpay', App\Services\Payment::class . ':purchase');
     $this->post('/code/f2fpay', App\Services\Payment::class . ':purchase');
     $this->get('/code/codepay', App\Services\Payment::class . ':purchase');
     $this->get('/code_check', App\Controllers\UserController::class . ':code_check');

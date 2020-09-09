@@ -27,12 +27,12 @@ class FCPay extends AbstractPayment
 
     private function getCallbackUrl()
     {
-        return Config::get('baseUrl') . 'user/code';
+        return Config::get('baseUrl') . '/user/code';
     }
 
     private function getNotifyUrl()
     {
-        return Config::get('baseUrl') . 'payment/notify';
+        return Config::get('baseUrl') . '/payment/notify';
     }
 
     private function sign_url($data)
